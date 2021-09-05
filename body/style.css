@@ -38,3 +38,8 @@
 figure {
   text-align: center;
 }
+
+.theEnd{
+  text-align: right;
+  font-weight: bold;
+}
