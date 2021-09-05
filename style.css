@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 90vh;
   background-color: #f6f0dc;
@@ -62,8 +65,40 @@ a.btn-dangerous:hover,
 a.btn-dangerous:active {
   background-color: #e42020;
 }
-.myImage{
+.myImage {
   align-self: center;
-  margin:auto;
+  margin: auto;
   width: 60%;
+}
+
+.miniContent {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+.miniContent::before {
+  content: "Nội dung chương:";
+  font-weight: bold;
+  text-align: left;
+}
+.miniContent a {
+  display: block;
+  text-decoration: none;
+}
+#myP {
+  display: none;
+  transform: 1s;
+}
+.backHome {
+  /* display: none; */
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2rem solid #1d1df68c;
 }

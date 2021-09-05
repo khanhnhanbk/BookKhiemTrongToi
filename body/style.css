@@ -1,24 +1,40 @@
 .buttons {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 
 .buttons .arrow {
-    color: hsl(219, 100%, 25%);
-    font-size:3rem;
-    line-height:2rem;
+  color: hsl(219, 100%, 25%);
+  font-size: 3rem;
+  line-height: 2rem;
 }
-.buttons .home{
-    font-size: 1.2rem;
-    color: hsl(0, 0%, 100%);
-    border-radius: 2rem;
-    padding: 0.35rem;
-    background-color: hsl(219deg 100% 50% / 69%);
-    width: 36vw;
-    height: 100%;
+.buttons .home {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  padding: 0.35rem;
+  background-color: hsl(219deg 100% 50% / 69%);
+  width: 36vw;
+  height: 100%;
+}
+
+.red {
+  color: rgb(197, 0, 0);
+  font-weight: bold;
+}
+.hr {
+  width: 50%;
+  font-size: 2px;
+  margin-bottom: 3rem;
+  color: #000000;
+  background-color: #000000;
+  display: block;
+}
+figure {
+  text-align: center;
 }
